@@ -1,8 +1,8 @@
-# Ex.No:3(D)    INTERFACE
+﻿# Ex.No:3(D)    INTERFACE
 
 ## QUESTION:
 
-You’re developing a multi-console gaming platform that supports different controllers. Each controller has its own way of mapping buttons for actions like Jump, Shoot, and Pause.
+Youâ€™re developing a multi-console gaming platform that supports different controllers. Each controller has its own way of mapping buttons for actions like Jump, Shoot, and Pause.
 
 To unify this behavior, you're asked to design a system using Java Interfaces. The interface will standardize the controls, and each controller will implement them differently.
 
@@ -37,18 +37,18 @@ To design a unified controller system using Java Interfaces where different gami
 6. Call the three methods (jump, shoot, pause) to demonstrate polymorphism.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Interface using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="p4m7zs"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.*;
 
@@ -100,7 +100,6 @@ Scanner sc = new Scanner(System.in);
 String controllerType = sc.nextLine().toLowerCase();
 String action = sc.nextLine().toLowerCase();
 
-```
     GameController controller;
 
     switch (controllerType) {
@@ -132,19 +131,17 @@ String action = sc.nextLine().toLowerCase();
             System.out.println("Unknown action!");
     }
 }
-```
 
 }
 
+
+
+
+
 ```
-
-
-
-
 ## OUTPUT:
 <img width="821" height="293" alt="image" src="https://github.com/user-attachments/assets/77adba3b-7948-47f4-a6ed-f87b7e0eb83b" />
 
 
 ## RESULT:
 Therefore the program successfully unifies different gaming controllers using a common interface.
-```

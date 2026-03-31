@@ -1,4 +1,4 @@
-# Ex.No:5(A) INPUTSTREAMREADER
+﻿# Ex.No:5(A) INPUTSTREAMREADER
 
 ## QUESTION:
 
@@ -12,7 +12,7 @@ To write a Java program that demonstrates stream chaining by placing a BufferedR
 
 1. Create a BufferedReader object by chaining:
 
-2. System.in → InputStreamReader → BufferedReader.
+2. System.in â†’ InputStreamReader â†’ BufferedReader.
 
 3. Inside a try block Use readLine() to read the user's name.
 
@@ -23,18 +23,18 @@ To write a Java program that demonstrates stream chaining by placing a BufferedR
 6. Catch any IOException and display an appropriate error message.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a InputStreamReader using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="g8v3rk"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -56,13 +56,12 @@ System.out.println("An error occurred: " + e.getMessage());
 }
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="827" height="557" alt="image" src="https://github.com/user-attachments/assets/b647d19d-16b6-48c7-8343-acca2fb720ec" />
 
 
 ## RESULT:
 Therefore the program successfully demonstrates chaining of input streams by reading user data through a BufferedReader wrapped over an InputStreamReader.
-```

@@ -1,4 +1,4 @@
-# Ex.No:5(C)  FILE HANDLING USING JAVA
+﻿# Ex.No:5(C)  FILE HANDLING USING JAVA
 
 ## QUESTION:
 
@@ -18,21 +18,21 @@ To write a Java program that creates a new file named example.txt using the File
 
 4. If it returns false, print that the file already exists.
 
-5. Surround the file-creation logic with a try–catch block to handle IOException.
+5. Surround the file-creation logic with a tryâ€“catch block to handle IOException.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a File Handling using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="y6p3kt"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.io.File;
 import java.io.IOException;
@@ -52,12 +52,11 @@ System.out.println("An error occurred: " + e.getMessage());
 }
 }
 
-```
 
+```
 ## OUTPUT:
 <img width="768" height="255" alt="image" src="https://github.com/user-attachments/assets/ae4f968a-af58-4f91-8e79-baeea0fd9f29" />
 
 
 ## RESULT:
 Therefore the program successfully creates a new file named example.txt if it does not already exist.
-```

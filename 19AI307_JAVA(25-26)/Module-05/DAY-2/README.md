@@ -1,4 +1,4 @@
-# Ex.No:5(B) SERIALIZATION AND DESERIALIZATION
+﻿# Ex.No:5(B) SERIALIZATION AND DESERIALIZATION
 
 ## QUESTION:
 
@@ -29,18 +29,18 @@ To write a Java program that serializes a collection of Student objects (ArrayLi
 9. Close the scanner.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Serialization and Deserialization using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="f2k7qp"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.io.*;
 import java.util.*;
@@ -49,7 +49,6 @@ import java.util.*;
 class Student implements Serializable {
 private static final long serialVersionUID = 1L;
 
-```
 private int id;
 private String name;
 private double marks;
@@ -64,13 +63,11 @@ public Student(int id, String name, double marks) {
 public String toString() {
     return "Student{id=" + id + ", name='" + name + "', marks=" + marks + "}";
 }
-```
 
 }
 
 public class StudentSerializationUserInput {
 
-```
 // Serialize list of students
 public static void serializeStudents(List<Student> students, String fileName) {
     try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
@@ -124,13 +121,12 @@ public static void main(String[] args) {
 
     scanner.close();
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="1253" height="531" alt="image" src="https://github.com/user-attachments/assets/b017eac9-5975-417a-b46a-fa465087a91b" />
 
@@ -138,4 +134,3 @@ public static void main(String[] args) {
 
 ## RESULT:
 Therfor the program successfully serializes an ArrayList of Student objects into a file and restores them through deserialization.
-```

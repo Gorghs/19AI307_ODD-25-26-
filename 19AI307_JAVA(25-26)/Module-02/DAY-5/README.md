@@ -1,4 +1,4 @@
-# Ex.No:2(E) ACCESS MODIFIERS
+﻿# Ex.No:2(E) ACCESS MODIFIERS
 
 ## QUESTION:
 
@@ -27,25 +27,24 @@ To create an Employee class where the display() method returns the current objec
 8. Call both display().printName() and show() to demonstrate method chaining.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Access Modifiers using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="t7q9vn"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
 class Employee {
 String name;
 
-```
 void setName(String name) {
     this.name = name;  
 }
@@ -57,7 +56,6 @@ Employee display() {
 void printName() {
     System.out.println("Employee Name: " + name);
 }
-```
 
 }
 
@@ -66,18 +64,16 @@ public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 String inputName = scanner.nextLine();
 
-```
     Employee emp = new Employee();
     emp.setName(inputName);
     emp.display().printName();  
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 
 <img width="686" height="326" alt="image" src="https://github.com/user-attachments/assets/954fafa4-a638-4044-b666-3322017194cd" />
@@ -85,4 +81,3 @@ String inputName = scanner.nextLine();
 
 ## RESULT:
 Therefore the program successfully returns the current object using this inside the display() method.
-```

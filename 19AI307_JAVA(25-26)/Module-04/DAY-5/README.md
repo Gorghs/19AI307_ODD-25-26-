@@ -1,4 +1,4 @@
-# Ex.No:4(E) DESIGN PATTERN  ---- MEDIATOR PATTERN
+﻿# Ex.No:4(E) DESIGN PATTERN  ---- MEDIATOR PATTERN
 
 ## QUESTION:
 
@@ -18,30 +18,29 @@ Implement the Mediator pattern using a ChatRoom class to manage communication be
 
 4. Read the number of chat exchanges.
 
-5. For each exchange read sender, receiver, and message, call the corresponding user’s send() method.
+5. For each exchange read sender, receiver, and message, call the corresponding userâ€™s send() method.
 
 6. Ensure all communication happens only through the mediator (ChatRoom), not directly between users.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a  Pattern using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="d5k8pn"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.*;
 
 class ChatRoom {
 private Map<String, User> users = new HashMap<>();
 
-```
 public void registerUser(User user) {
     users.put(user.getName(), user);
 }
@@ -54,7 +53,6 @@ public void sendMessage(String from, String to, String message) {
         System.out.println("User " + to + " not found");
     }
 }
-```
 
 }
 
@@ -62,7 +60,6 @@ class User {
 private String name;
 private ChatRoom chatRoom;
 
-```
 public User(String name, ChatRoom chatRoom) {
     this.name = name;
     this.chatRoom = chatRoom;
@@ -80,7 +77,6 @@ public void send(String to, String message) {
 public void receive(String from, String message) {
     System.out.println(from + " to " + name + ": " + message);
 }
-```
 
 }
 
@@ -88,7 +84,6 @@ public class ChatApp {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
-```
     ChatRoom room = new ChatRoom();
     User user1 = new User(sc.nextLine(), room); 
     User user2 = new User(sc.nextLine(), room);
@@ -110,13 +105,12 @@ Scanner sc = new Scanner(System.in);
 
     sc.close();
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="1143" height="846" alt="image" src="https://github.com/user-attachments/assets/e6ccf91b-1c65-4d94-bfdc-ddf4f68b9ad1" />
 
@@ -124,4 +118,3 @@ Scanner sc = new Scanner(System.in);
 
 ## RESULT:
 Therefore the program successfully demonstrates message exchange using the Mediator Pattern, with all user communication routed through the ChatRoom.
-```

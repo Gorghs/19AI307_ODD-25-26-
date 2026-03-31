@@ -1,4 +1,4 @@
-# Ex.No:2(B) METHODS
+﻿# Ex.No:2(B) METHODS
 
 ## QUESTION:
 
@@ -12,8 +12,8 @@ To write a Java program that defines a method cube(int x) which internally calls
 
 1. Define a class demo with two methods:
 
-   square(int n) → returns n * n.
-   cube(int n) → returns n * square(n) by calling the square() method internally.
+   square(int n) â†’ returns n * n.
+   cube(int n) â†’ returns n * square(n) by calling the square() method internally.
 
 2. In the main class, read an integer input from the user.
 
@@ -24,18 +24,18 @@ To write a Java program that defines a method cube(int x) which internally calls
 5. End the program.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Methods using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="k9w2pl"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.*;
 class demo
@@ -61,9 +61,9 @@ System.out.println(d.cube(n));
 }
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="392" height="243" alt="image" src="https://github.com/user-attachments/assets/aa929a40-c871-4a15-8d09-12604778a14b" />
 
@@ -71,4 +71,3 @@ System.out.println(d.cube(n));
 
 ## RESULT:
 Therefore the program successfully computes the cube of a number by internally using the square method.
-```

@@ -1,4 +1,4 @@
-# Ex.No:5(E) MULTITHREADING -SYNCHRONIZATION
+﻿# Ex.No:5(E) MULTITHREADING -SYNCHRONIZATION
 
 ## QUESTION:
 
@@ -25,18 +25,18 @@ To write a Java program that reads two integers from the user and swaps their va
 7. Close the scanner.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Synchronization concept using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="n8v2qm"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
@@ -47,7 +47,6 @@ int a = sc.nextInt();
 int b = sc.nextInt();
 Object lock = new Object();
 
-```
     synchronized (lock) {
         int temp = a;
         a = b;
@@ -58,13 +57,12 @@ Object lock = new Object();
     System.out.println("b = " + b);
     sc.close();
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="457" height="390" alt="image" src="https://github.com/user-attachments/assets/2fb44153-47e4-4ac3-8872-e321e221fc56" />
 
@@ -72,4 +70,3 @@ Object lock = new Object();
 
 ## RESULT:
 Therefore the program successfully swaps two integers within a synchronized block, ensuring safe and controlled access.
-```

@@ -1,4 +1,4 @@
-# Ex.No:1(E) STRINGS AND MATH FUNCTION
+﻿# Ex.No:1(E) STRINGS AND MATH FUNCTION
 
 ## QUESTION:
 
@@ -21,18 +21,18 @@ To write a Java program that finds the absolute value of a given number using th
 5.End the program.
 
 ## PROGRAM:
-
 ```
+
 /*
 Program to implement a Strings and Math Function using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-```
 
+```
 ## SOURCE CODE:
-
 ```
+
 import java.util.*;
 public class demo
 {
@@ -43,8 +43,8 @@ public class demo
         System.out.println("Absolute value = "+Math.abs(n));
     }
 }
-```
 
+```
 ## OUTPUT:
 
 <img width="744" height="288" alt="image" src="https://github.com/user-attachments/assets/5fab9f43-7f0e-491d-bbad-5c3b7979703e" />

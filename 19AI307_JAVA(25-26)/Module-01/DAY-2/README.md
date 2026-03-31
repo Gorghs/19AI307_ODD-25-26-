@@ -1,4 +1,4 @@
-# Ex.No:1(B) CONDITIONAL STATEMENT
+﻿# Ex.No:1(B) CONDITIONAL STATEMENT
 
 ## QUESTION:
 
@@ -17,9 +17,9 @@ A pirate ship has a code lock that only opens if:
 Aim:
 To write a Java program that accepts a code number and determines the security level based on the given conditions:
 
-* If the code is even and less than 100 → Display "Weak Code"
-* If the code is even and between 100 and 999 → Display "Strong Code"
-* Otherwise → Display "Access Denied"
+* If the code is even and less than 100 â†’ Display "Weak Code"
+* If the code is even and between 100 and 999 â†’ Display "Strong Code"
+* Otherwise â†’ Display "Access Denied"
 
 ## ALGORITHM :
 
@@ -39,18 +39,18 @@ To write a Java program that accepts a code number and determines the security l
 6. End the program.
 
 ## PROGRAM:
-
 ```
+
 /*
 Program to implement a conditional statement using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-```
 
+```
 ## SOURCE CODE:
-
 ```
+
 import java.util.Scanner;
 
 public class PirateCodeLock {
@@ -73,8 +73,8 @@ public class PirateCodeLock {
         }
     }
 }
-```
 
+```
 ## OUTPUT:
 
 <img width="1253" height="395" alt="image" src="https://github.com/user-attachments/assets/4a2d9365-69a5-452d-bc72-f619377d3b5a" />

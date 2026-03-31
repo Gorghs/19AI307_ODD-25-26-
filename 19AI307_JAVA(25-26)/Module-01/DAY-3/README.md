@@ -1,4 +1,4 @@
-# Ex.No:1(C) LOOPING STATEMENT
+﻿# Ex.No:1(C) LOOPING STATEMENT
 
 ## QUESTION:
 
@@ -21,18 +21,18 @@ To write a Java program that reads an integer from the user and displays all the
 5.End the program.
 
 ## PROGRAM:
-
 ```
+
 /*
 Program to implement a Looping Statement using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-```
 
+```
 ## SOURCE CODE:
-
 ```
+
 import java.util.Scanner;
 
 public class Factors {
@@ -48,8 +48,8 @@ public class Factors {
         }
     }
 }
-```
 
+```
 ## OUTPUT:
 
 <img width="783" height="324" alt="image" src="https://github.com/user-attachments/assets/aec35b44-acab-4431-893b-df99fc8c8cd4" />

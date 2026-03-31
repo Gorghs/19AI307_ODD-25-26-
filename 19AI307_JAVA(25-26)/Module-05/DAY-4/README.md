@@ -1,4 +1,4 @@
-# Ex.No:5(D) THREAD PRIORITY
+﻿# Ex.No:5(D) THREAD PRIORITY
 
 ## QUESTION:
 
@@ -23,18 +23,18 @@ To write a Java program that demonstrates multithreading by creating a user-defi
 6. Allow the thread to run independently from the main thread.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Thread Priority Concept using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="m4z8qp"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 public class MyThread extends Thread {
 public void run() {
@@ -42,7 +42,6 @@ for (int i = 1; i <= 5; i++) {
 System.out.println("Thread: " + i);
 }
 
-```
 }
 
 public static void main(String[] args) {
@@ -50,13 +49,12 @@ public static void main(String[] args) {
     MyThread t = new MyThread();
     t.start();
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="612" height="355" alt="image" src="https://github.com/user-attachments/assets/b583e00e-99ec-4ea3-b48f-e1305b42e783" />
 
@@ -64,4 +62,3 @@ public static void main(String[] args) {
 
 ## RESULT:
 Therefore the program successfully creates a separate thread by extending Thread and executes the overridden run() method.
-```

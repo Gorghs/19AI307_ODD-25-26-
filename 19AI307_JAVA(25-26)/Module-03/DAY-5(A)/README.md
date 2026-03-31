@@ -1,4 +1,4 @@
-# Ex.No:3(E) ENUM
+﻿# Ex.No:3(E) ENUM
 
 ## QUESTION:
 
@@ -23,18 +23,18 @@ To write a Java program that defines an enum named GameLevel with constants EASY
 6. Close the scanner in the finally block.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a InnerClass using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="n2x8qk"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
@@ -47,7 +47,6 @@ public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 String userInput = scanner.nextLine().toUpperCase();
 
-```
     try {
         GameLevel level = GameLevel.valueOf(userInput);
         System.out.println("You selected game level: " + level);
@@ -57,15 +56,14 @@ String userInput = scanner.nextLine().toUpperCase();
         scanner.close();
     }
 }
-```
 
 }
 
+
+
+
+
 ```
-
-
-
-
 ## OUTPUT:
 <img width="815" height="326" alt="image" src="https://github.com/user-attachments/assets/fe75fd02-00e4-4672-8233-93e35f565e9f" />
 
@@ -73,4 +71,3 @@ String userInput = scanner.nextLine().toUpperCase();
 
 ## RESULT:
 Therefore the program successfully reads a game level from the user and maps it to the corresponding enum constant.
-```

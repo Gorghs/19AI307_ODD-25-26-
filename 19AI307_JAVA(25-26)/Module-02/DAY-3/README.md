@@ -1,4 +1,4 @@
-# Ex.No:2(C) ACCESS SPECIFIERS
+﻿# Ex.No:2(C) ACCESS SPECIFIERS
 
 ## QUESTION:
 
@@ -35,24 +35,23 @@ To write a Java program thaat defines a class BankAccount with private attribute
 7. Close the Scanner and end the program.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Access Specifiers using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="z7h3lm"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
 class BankAccount {
 
-```
 private String accountNumber;
 private double balance;
 
@@ -71,7 +70,6 @@ public double getBalance() {
 public void setBalance(double balance) {
     this.balance = balance;
 }
-```
 
 }
 
@@ -79,7 +77,6 @@ public class prog {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
-```
     BankAccount account = new BankAccount();
 
     String accNo = sc.nextLine();
@@ -93,12 +90,11 @@ Scanner sc = new Scanner(System.in);
 
     sc.close();
 }
-```
 
 }
 
-```
 
+```
 ## OUTPUT:
 <img width="826" height="465" alt="image" src="https://github.com/user-attachments/assets/972c4fcf-d9d0-43f8-bc30-518764a4d55e" />
 
@@ -106,4 +102,3 @@ Scanner sc = new Scanner(System.in);
 
 ## RESULT:
 Therfore the program successfully stores account details using setter methods and retrieves them using getter methods.
-```

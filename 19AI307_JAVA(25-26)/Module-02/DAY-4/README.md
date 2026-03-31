@@ -1,4 +1,4 @@
-# Ex.No:2(D) VARIABLE SCOPE AND CONSTRUCTOR
+﻿# Ex.No:2(D) VARIABLE SCOPE AND CONSTRUCTOR
 
 ## QUESTION:
 
@@ -31,19 +31,19 @@ To write a Java program that initializes object variables using a constructor an
 6. End the program.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Variable scope and Constructor using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="l9xv2c"
 
 
+```
 ## SOURCE CODE:
+```
 
-````
 
 import java.util.Scanner;
 
@@ -51,7 +51,6 @@ class Student {
 String name;
 int age;
 
-```
 public Student(String name, int age) {
     this.name = name;
     this.age = age;
@@ -61,7 +60,6 @@ public Student(String name, int age) {
 public String toString() {
     return "Student{name='" + name + "', age=" + age + "}";
 }
-```
 
 }
 
@@ -71,19 +69,17 @@ Scanner scanner = new Scanner(System.in);
 String name = scanner.nextLine();
 int age = scanner.nextInt();
 
-```
     Student student = new Student(name, age);
     System.out.println(student.toString());
 }
-```
 
 }
 
+
+
+
+
 ```
-
-
-
-
 ## OUTPUT:
 <img width="896" height="395" alt="image" src="https://github.com/user-attachments/assets/0b280b01-a09a-4749-b733-41411f01b00a" />
 
@@ -92,4 +88,3 @@ int age = scanner.nextInt();
 
 ## RESULT:
 Therefore the program successfully creates a student object using the constructor.
-```

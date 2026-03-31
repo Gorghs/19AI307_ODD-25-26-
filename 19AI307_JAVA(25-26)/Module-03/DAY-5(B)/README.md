@@ -1,4 +1,4 @@
-# Ex.No:3(F) WRAPPER CLASS
+﻿# Ex.No:3(F) WRAPPER CLASS
 
 ## QUESTION:
 
@@ -25,18 +25,18 @@ To write a Java program that checks whether a given number is prime by using the
 7. Close the scanner.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a InnerClass using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="v8q3rn"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
@@ -44,7 +44,6 @@ public class PrimeChecker {
 public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 
-```
     String input = scanner.nextLine();
 
     try {
@@ -74,17 +73,16 @@ Scanner scanner = new Scanner(System.in);
 
     scanner.close();
 }
-```
 
 }
 
+
+
+
+
+
+
 ```
-
-
-
-
-
-
 ## OUTPUT:
 <img width="893" height="258" alt="image" src="https://github.com/user-attachments/assets/2cfce946-0ad1-43c0-a0b9-9f1d4d27a34b" />
 
@@ -92,4 +90,3 @@ Scanner scanner = new Scanner(System.in);
 
 ## RESULT:
 Therefore the program successfully checks if the input number is a prime using the Integer wrapper class.
-```

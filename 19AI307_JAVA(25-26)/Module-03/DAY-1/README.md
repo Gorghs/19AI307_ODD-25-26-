@@ -1,4 +1,4 @@
-# Ex.No:3(A) INHERITANCE AND AGGREGATION 
+﻿# Ex.No:3(A) INHERITANCE AND AGGREGATION 
 
 ## QUESTION:
 
@@ -23,12 +23,12 @@ To build an inheritance-based Java program that calculates the final price of go
 3. Create method calculateFinalPrice() that:
 
    ```
-    calculates discount per gram → discountAmount = goldRatePerGram * (discountRate/100)
+    calculates discount per gram â†’ discountAmount = goldRatePerGram * (discountRate/100)
 
-    calculates effective rate → effectiveRate = goldRatePerGram - discountAmount
+    calculates effective rate â†’ effectiveRate = goldRatePerGram - discountAmount
    ```
 
-returns → finalPrice = purchaseWeight * effectiveRate
+returns â†’ finalPrice = purchaseWeight * effectiveRate
 
 4. Override display() in base class to show general customer details.
 
@@ -46,25 +46,25 @@ returns → finalPrice = purchaseWeight * effectiveRate
    Override getDiscountRate() to return 5%.
    ```
 
-7. Add calculateCashback() → returns 1% of final price.
+7. Add calculateCashback() â†’ returns 1% of final price.
 
 8. Override display() to show final price + cashback.
 
 9. Call display() to show the complete bill with discounts.
 
 ## PROGRAM:
-
 ```
+
 /*
 Program to implement a Inheritance and Aggregation using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-```
 
+```
 ## SOURCE CODE:
-
 ```
+
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
@@ -177,8 +177,8 @@ public class GoldRateSystem {
         sc.close();
     }
 }
-```
 
+```
 ## OUTPUT:
 
 <img width="884" height="700" alt="image" src="https://github.com/user-attachments/assets/bc4bc233-2418-404a-88cc-490c1d83bc24" />

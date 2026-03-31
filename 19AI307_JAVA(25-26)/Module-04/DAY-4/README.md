@@ -1,4 +1,4 @@
-# Ex.No:4(D) DESIGN PATTERN -- ABSTRACT FACTORY
+﻿# Ex.No:4(D) DESIGN PATTERN -- ABSTRACT FACTORY
 
 ## QUESTION:
 
@@ -6,7 +6,7 @@ Create a program that sends different types of notifications: "email", "sms", an
 
 ## AIM:
 
-To develop a Java program that uses the Factory Pattern to generate different types of notifications—Email, SMS, and Push—and call the appropriate notifyUser() method based on user input.
+To develop a Java program that uses the Factory Pattern to generate different types of notificationsâ€”Email, SMS, and Pushâ€”and call the appropriate notifyUser() method based on user input.
 
 ## ALGORITHM :
 
@@ -35,18 +35,18 @@ To develop a Java program that uses the Factory Pattern to generate different ty
 12. Close the scanner after exiting the loop.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Abstract Factory Pattern using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="w9k2mz"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
@@ -97,16 +97,15 @@ sc.close();
 }
 }
 
+
+
+
+
+
 ```
-
-
-
-
-
 ## OUTPUT:
 <img width="943" height="423" alt="image" src="https://github.com/user-attachments/assets/4bf885fa-c016-47dd-bfe0-edf37e8a39e5" />
 
 
 ## RESULT:
 Therefore the program successfully creates and sends the appropriate notification type using the Factory Pattern.
-```

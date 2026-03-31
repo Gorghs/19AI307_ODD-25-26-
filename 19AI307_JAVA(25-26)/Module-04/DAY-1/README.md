@@ -1,4 +1,4 @@
-# Ex.No:4(A) EXCEPTION HANDLING
+﻿# Ex.No:4(A) EXCEPTION HANDLING
 
 ## QUESTION:
 
@@ -25,18 +25,18 @@ To write a Java program that demonstrates a NullPointerException when calling .t
 6. Close the scanner.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Exception Handling using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="c8v2qn"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.Scanner;
 
@@ -44,7 +44,6 @@ public class NullPointerArrayExample {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
-```
     String input = sc.nextLine();
     String str = input.equalsIgnoreCase("null") ? null : input;
 
@@ -56,17 +55,15 @@ Scanner sc = new Scanner(System.in);
 
     sc.close();
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="624" height="359" alt="image" src="https://github.com/user-attachments/assets/8c3a3da5-a663-4aa0-8433-b5ca5dbd4108" />
 
 
 ## RESULT:
 Therefore the program successfully demonstrates how a NullPointerException occurs when calling .toUpperCase() on a null value.
-```

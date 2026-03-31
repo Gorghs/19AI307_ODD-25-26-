@@ -1,4 +1,4 @@
-# Ex.No:3(C) ABSTRACTION
+﻿# Ex.No:3(C) ABSTRACTION
 
 ## QUESTION:
 
@@ -36,19 +36,19 @@ To create an abstract class Decoder with an abstract method decodeMessage(), and
 10. Call decodeMessage() and print the decoded output.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Abstraction using Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="x8q2vm"
 
 
+```
 ## SOURCE CODE:
+```
 
-````
 
 import java.util.*;
 
@@ -61,7 +61,6 @@ class AlphaAgent extends Decoder {
 String decodeMessage(String[] fragments) {
 List<String> ordered = new ArrayList<>();
 
-```
     for (int i = 0; i < fragments.length; i += 2) {
         ordered.add(fragments[i]);
     }
@@ -78,7 +77,6 @@ List<String> ordered = new ArrayList<>();
     }
     return result.toString();
 }
-```
 
 }
 
@@ -96,11 +94,9 @@ selected.add(f);
 }
 }
 
-```
     String joined = String.join("-", selected);
     return joined.replaceAll("[AEIOUaeiou]", "");
 }
-```
 
 }
 
@@ -114,7 +110,6 @@ fragments[i] = sc.nextLine().trim();
 }
 int type = Integer.parseInt(sc.nextLine().trim());
 
-```
     Decoder agent;
     if (type == 1)
         agent = new AlphaAgent();
@@ -124,16 +119,15 @@ int type = Integer.parseInt(sc.nextLine().trim());
     System.out.println(agent.decodeMessage(fragments));
     sc.close();
 }
-```
 
 }
 
+
+
+
+
+
 ```
-
-
-
-
-
 ## OUTPUT:
 <img width="791" height="586" alt="image" src="https://github.com/user-attachments/assets/8e5ac67e-a125-4db4-b804-52e16025fa7e" />
 
@@ -141,4 +135,3 @@ int type = Integer.parseInt(sc.nextLine().trim());
 
 ## RESULT:
 Therefore the program successfully decodes messages using the rules defined for AlphaAgent and BetaAgent.
-```

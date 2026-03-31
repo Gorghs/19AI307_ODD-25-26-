@@ -1,4 +1,4 @@
-# Ex.No:4(C)  COMPOSITION IN JAVA
+﻿# Ex.No:4(C)  COMPOSITION IN JAVA
 
 ## QUESTION:
 
@@ -30,18 +30,18 @@ To write a Java program demonstrating aggregation, where a Department contains m
 9. Call showProfessors() to display the results.
 
 ## PROGRAM:
+```
 
-````
 /*
 Program to implement a Composition Concepts in Java
 Developed by: karthick
 RegisterNumber: 212223040086
 */
-``` id="b7k3qv"
 
 
+```
 ## SOURCE CODE:
-````
+```
 
 import java.util.*;
 
@@ -57,7 +57,6 @@ String name;
 Professor[] professors;
 int count = 0;
 
-```
 Department(String name, int n) {
     this.name = name;
     professors = new Professor[n];
@@ -77,7 +76,6 @@ void showProfessors() {
         }
     }
 }
-```
 
 }
 
@@ -87,7 +85,6 @@ Scanner sc = new Scanner(System.in);
 int n = sc.nextInt();
 sc.nextLine(); // consume newline
 
-```
     Professor[] profs = new Professor[n];
     for (int i = 0; i < n; i++) {
         if (sc.hasNextLine()) {
@@ -108,13 +105,12 @@ sc.nextLine(); // consume newline
     dept.showProfessors();
     sc.close();
 }
-```
 
 }
 
+
+
 ```
-
-
 ## OUTPUT:
 <img width="828" height="292" alt="image" src="https://github.com/user-attachments/assets/4e69935f-7724-441c-b2cb-952384232733" />
 
@@ -122,4 +118,3 @@ sc.nextLine(); // consume newline
 
 ## RESULT:
 Therefore the program successfully demonstrates aggregation by associating independent Professor objects with a Department.
-```
